@@ -1,15 +1,18 @@
 {
   "key": "atlassian-secret-scanner",
   "name": "Atlassian Secret Scanner",
-  "baseUrl": "https://forms.rbx.com/webhook/083d88ca33c5a2469068d712e0f5e306/c6985973502d5f1c089927277d327352",
+  "baseUrl": "https://your-app-url.com",
   "vendor": {
-    "name": "None",
-    "url": "None"
+    "name": "none",
+    "url": "none"
   },
   "authentication": {
     "type": "none"
   },
   "apiVersion": 1,
+  "scopes": [
+    "read"
+  ],
   "modules": {
     "webhooks": [
       {
