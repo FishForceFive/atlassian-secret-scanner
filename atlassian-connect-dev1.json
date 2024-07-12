@@ -1,7 +1,7 @@
 {
   "key": "atlassian-secret-scanner",
   "name": "Atlassian Secret Scanner",
-  "baseUrl": "https://forms.rbx.com/webhook/083d88ca33c5a2469068d712e0f5e306/c6985973502d5f1c089927277d327352",
+  "baseUrl": "https://forms.rbx.com/",
   "vendor": {
     "name": "none",
     "url": "none"
@@ -17,11 +17,11 @@
     "webhooks": [
       {
         "event": "jira:issue_created",
-        "url": "/webhook/issue-created"
+        "url": "/webhook/b6cd8aa5244872c249a8f3826b74b2c6/c6985973502d5f1c089927277d327352"
       },
       {
         "event": "page_created",
-        "url": "/webhook/page-created"
+        "url": "/webhook/083d88ca33c5a2469068d712e0f5e306/c6985973502d5f1c089927277d327352"
       }
     ]
   }
