@@ -1,0 +1,28 @@
+{
+  "key": "atlassian-secret-scanner",
+  "name": "Atlassian Secret Scanner",
+  "baseUrl": "https://your-app-url.com",
+  "vendor": {
+    "name": "none",
+    "url": "none"
+  },
+  "authentication": {
+    "type": "none"
+  },
+  "apiVersion": 1,
+  "scopes": [
+    "read"
+  ],
+  "modules": {
+    "webhooks": [
+      {
+        "event": "jira:issue_created",
+        "url": "/webhook/issue-created"
+      },
+      {
+        "event": "page_created",
+        "url": "/webhook/page-created"
+      }
+    ]
+  }
+}
