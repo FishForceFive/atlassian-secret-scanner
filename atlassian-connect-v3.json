@@ -20,7 +20,15 @@
         "url": "/webhook/b6cd8aa5244872c249a8f3826b74b2c6/c6985973502d5f1c089927277d327352"
       },
       {
+        "event": "jira:issue_updated",
+        "url": "/webhook/b6cd8aa5244872c249a8f3826b74b2c6/c6985973502d5f1c089927277d327352"
+      },
+      {
         "event": "page_created",
+        "url": "/webhook/083d88ca33c5a2469068d712e0f5e306/c6985973502d5f1c089927277d327352"
+      },
+      {
+        "event": "page_updated",
         "url": "/webhook/083d88ca33c5a2469068d712e0f5e306/c6985973502d5f1c089927277d327352"
       }
     ]
